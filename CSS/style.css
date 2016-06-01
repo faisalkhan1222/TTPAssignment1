@@ -1,0 +1,64 @@
+a{
+  text-decoration: none;
+  border: 1px solid green;
+}
+
+li{
+  list-style: none;
+  display: inline;
+}
+
+#left{
+
+width:400px;
+height: 500px;
+border: 1px solid red;
+float: left;
+
+}
+
+#mid{
+
+    width: 400px;
+    height: 500px;
+    border: 1px solid blue;
+    float: left;
+
+}
+
+#right{
+
+width: 400px;
+height: 500px;
+border: 1px solid blue;
+float: left;
+
+}
+
+
+#secRight{
+  width:400px;
+  height: 500px;
+  border: 1px solid red;
+  float: left;
+
+}
+
+#secMid{
+  width: 400px;
+  height: 500px;
+  border: 1px solid blue;
+  float: left;
+}
+
+#secLeft{
+  width: 400px;
+  height: 500px;
+  border: 1px solid blue;
+  float: left;
+}
+
+
+footer{
+  clear: both;
+}
