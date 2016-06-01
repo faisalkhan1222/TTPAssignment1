@@ -1,11 +1,16 @@
+/*
+***************************************************************
+CSS for all of the pages
+***************************************************************
+*/
 body{
-  /*f5f5f0*/
   background-color: #f0f0f5;
 }
 
 
 a{
   text-decoration: none;
+  border-bottom: 1px dashed green;
   font-style: italic;
   font-size: 20px;
   color:#ac39ac ;
@@ -17,13 +22,10 @@ li{
   display: inline;
   padding-left: 1%;
   padding-right: 1%;
-
-/*  margin:auto;*/
 }
 
 ul{
   display: block;
-  /*margin:auto;*/
 }
 
 h1{
@@ -37,6 +39,20 @@ nav{
 text-align: center
 }
 
+footer{
+  width: 30%;
+  clear: both;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #f5f5f0;
+}
+
+/*
+***************************************************************
+CSS for the gallary page
+***************************************************************
+*/
 #left{
 width:400px;
 height: 300px;
@@ -82,6 +98,17 @@ padding: 2px 2px 2px 2px;
   padding: 2px 2px 2px 2px;
 }
 
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+/*
+***************************************************************
+CSS for the about page
+***************************************************************
+*/
 #leftCol{
   width: 45%;
   padding: 12px 12px 12px 12px;
@@ -99,16 +126,29 @@ padding: 2px 2px 2px 2px;
 
 }
 
-img{
-  width: 100%;
-  height: 100%;
-}
+/*
+***************************************************************
+CSS for the gallary page
+***************************************************************
+*/
 
-footer{
+#leftColBlog{
   width: 30%;
-  clear: both;
+  padding: 12px 12px 12px 12px;
+  float: left;
+  border-right: 1px dotted black;
   margin: auto;
-  text-align: center;
-  padding-top: 20px;
-  background-color: #f5f5f0;
+}
+#midColBlog{
+  width: 30%;
+  padding: 12px 12px 12px 12px;
+  float: left;
+  border-right: 1px dotted black;
+  margin: auto;
+}
+#rightColBlog{
+  width: 30%;
+  padding: 12px 12px 12px 12px;
+  float: left;
+  margin: auto;
 }
