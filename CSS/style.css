@@ -1,5 +1,7 @@
 /*
 ***************************************************************
+Author: Faisal Khan
+Assignment 1 TTP 2016
 CSS for all of the pages
 ***************************************************************
 */
@@ -7,13 +9,17 @@ body{
   background-color: #f0f0f5;
 }
 
-
 a{
   text-decoration: none;
   border-bottom: 1px dashed green;
   font-style: italic;
   font-size: 20px;
-  color:#ac39ac ;
+  color:black;
+  font-weight: lighter;
+}
+
+a:hover{
+  color: purple;
   font-weight: bold;
 }
 
@@ -30,13 +36,20 @@ ul{
 
 h1{
   text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+h3{
+  text-align: left;
+  font-style: italic;
 }
 
 nav{
   width: 40%;
-  background-color: #f5f5f0;
+  background-color: #e0ebeb;
   margin:auto;
-text-align: center
+  text-align: center
 }
 
 footer{
@@ -45,63 +58,77 @@ footer{
   margin: auto;
   text-align: center;
   padding-top: 20px;
-  background-color: #f5f5f0;
+  background-color: #e0ebeb;
 }
 
+#center{
+  text-align: center;
+}
 /*
 ***************************************************************
 CSS for the gallary page
 ***************************************************************
 */
 #left{
-width:400px;
-height: 300px;
-float: left;
-padding: 2px 2px 2px 2px;
+  width:400px;
+  height: 300px;
+  float: left;
+  padding: 2px 2px 2px 2px;
+  background-image:url("../pics/2.jpg");
+  background-repeat: no-repeat;
+  margin: 5px;
 }
 
 #mid{
 
-    width: 400px;
-    height: 300px;
-    float: left;
-    padding: 2px 2px 2px 2px;
+  width: 400px;
+  height: 300px;
+  float: left;
+  padding: 2px 2px 2px 2px;
+  background-image: url("../pics/3.jpg");
+  background-repeat: no-repeat;
+  margin: 5px;
 }
 
 #right{
 
-width: 400px;
-height: 300px;
-float: left;
-padding: 2px 2px 2px 2px;
+  width: 400px;
+  height: 300px;
+  float: left;
+  padding: 2px 2px 2px 2px;
+  background-image: url("../pics/4.jpg");
+  background-repeat: no-repeat;
+  margin: 5px;
 }
-
 
 #secRight{
   width:400px;
   height: 300px;
   float: left;
+  background-image: url("../pics/5.jpg");
+  background-repeat: no-repeat;
   padding: 2px 2px 2px 2px;
+  margin: 5px;
 }
 
 #secMid{
   width: 400px;
   height: 300px;
   float: left;
+  background-image: url("../pics/6.png");
+  background-repeat: no-repeat;
   padding: 2px 2px 2px 2px;
+  margin: 5px;
 }
 
 #secLeft{
   width: 400px;
   height: 300px;
   float: left;
+  background-image: url("../pics/7.png");
+  background-repeat: no-repeat;
   padding: 2px 2px 2px 2px;
-}
-
-
-img{
-  width: 100%;
-  height: 100%;
+  margin: 5px;
 }
 
 /*
@@ -111,19 +138,34 @@ CSS for the about page
 */
 #leftCol{
   width: 45%;
-  padding: 12px 12px 12px 12px;
+  padding: 12px 12px 50px 50px;
   float: left;
   border-right: 1px dotted black;
   margin: auto;
 
 }
-
 #rightCol{
   width: 45%;
   padding: 12px 12px 12px 12px;
   float: left;
   margin: auto;
 
+}
+
+img{
+  width: 40px;
+  height: 40px;
+}
+
+img:hover{
+  width: 80px;
+  height:80px;
+}
+
+#socialMediaBar{
+  width: 40px;
+  height: 40px;
+  position: fixed;
 }
 
 /*
